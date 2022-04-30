@@ -1,0 +1,15 @@
+{
+  "name": "proxy-server",
+  "version": "1.0.0",
+  "description": "This is proxy server to handle multiple domains from single domain.",
+  "main": "index.js",
+  "author": "Akila Bandara",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^1.0.5"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
